@@ -1,2 +1,4 @@
-import { renderOrdeSummary } from "./checkout/orderSummary.js";
-renderOrdeSummary();
+import { renderPaymentSummary } from "./checkout/paymentSummary.js";
+import { renderOrderSummary } from "./checkout/orderSummary.js";
+renderOrderSummary();
+renderPaymentSummary();
