@@ -1,5 +1,7 @@
 import { formatCurrency } from "../utils/money.js";
-// Test that formatCurrency is working correctly by checking that it formats 2095 cents as $20.95 and 0 cents as FREE. If it is working correctly, the test will log "formatCurrency is working" to the console. If it is not working correctly, the test will log "formatCurrency is not working" to the console.
+console.log(
+  "Test that formatCurrency is working correctly by checking that it formats 2095 cents as $20.95 and 0 cents as FREE. If it is working correctly, the test will log formatCurrency is working to the console. If it is not working correctly, the test will log formatCurrency is not working to the console"
+);
 console.log("Testing formatCurrency working with 2095 cents as $20.95");
 if (formatCurrency(2095) === "20.95") {
   console.log("formatCurrency is working");
